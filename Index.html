@@ -1,0 +1,19 @@
+<html>
+   <body background = "bg.png">
+	<h1>Hai Cantik</h1>
+	<img src="love.gif" />
+	<h1>Maukah kamu menjadi pendamping hidupku?</h1>
+	<button id="btn_mau" onclick="alert('I Love You Devi Shidqia Putri❤️, kamu adalah bidadari yang sangat berarti bagi hidupku. YOU ARE MY EVERYTHING')">Mau</button>
+	<button id="btn_gamau" onclick="gamau(this)" style="position: absolute ">Gamau</button>
+    </body>
+    <script>
+	function gamau(id) {
+	 var mau = document.getElementById("btn_gamau");
+	 var i = Math.floor(Math.random() * 300) + 1;
+	 var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+	 id.style.left = i + "px";
+	 id.style.top = j + "px";
+	}
+    </script>
+</html>
+
