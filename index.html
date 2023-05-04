@@ -7,9 +7,8 @@
 	<button id="btn_gamau" onclick="gamau(this)" style="position: absolute ">Gamau</button>
     </body>
     <script>
-	    async function audio(){
-         audio = new Audio('https://mochfajarh.github.io/ForDevi/janjisuci.mp3');setTimeout(showDiv,100);
-       } audio();
+         var audio = new Audio('https://github.com/mochfajarh/ForDevi/janjisuci.mp3?raw=true');
+    audio.play();
 	function gamau(id) {
 	 var mau = document.getElementById("btn_gamau");
 	 var i = Math.floor(Math.random() * 300) + 1;
